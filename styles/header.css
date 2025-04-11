@@ -1,0 +1,18 @@
+/* Estilos del bloque Header */
+.header{
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+
+}
+.header__title{
+    margin: 0;
+    font-size: 2.5rem;
+    
+}
