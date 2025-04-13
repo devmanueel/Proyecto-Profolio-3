@@ -6,7 +6,7 @@
     <title>Portafolio - Manuel Mendoza</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
-<body class="page">
+<body class="page" style=" scroll-behavior: smooth;">
     <!-- Bloque Header -->
     <header class="header">
         <div class="header__container">
@@ -34,6 +34,120 @@
         </div>
 
     </header>
-    
+    <!-- Bloque page-main -->
+    <main class="page-main">
+        <section id="about" class="section section--dark">
+            <div class="section__container">
+                <h2 class="section__title">Sobre Mi</h2>
+                <div class="section__content">
+                    <img src="images/3.jpeg" alt="" class="section__image">
+                    <p class="section__text">
+                        Hola, soy Mendoza Manuel SantiagoComo estudiante de Analista Programador Universitario con un apasionado interés en las
+                        redes y el manejo de sistemas, incluyendo servidores, como asi tambien creacion de aplicaquines web he desarrollado una sólida base de
+                        habilidades técnicas y blandas que me hacen un candidato ideal para contribuir de manera
+                        efectiva en entornos de desarrollo y tecnología. Mi capacidad para comunicarme de manera
+                        clara y efectiva, así como mi habilidad para trabajar de manera colaborativa en equipos
+                        multidisciplinarios, me permiten abordar desafíos complejos de manera creativa y eficiente.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyects" class="section section--light">
+            <div class="section__container">
+                <h2 class="section__title">Mis Proyectos</h2>
+                <!-- bloque Card -->
+                 <div class="card-list">
+                    <article class="card">
+                        <img src="images/proyecto1.png" alt="" class="card__image">
+                        <div class="card__content">
+                            <h3 class="card__title">Postcast</h3>
+                            <p class="card__description">Landing pague sobre un postcast tecnológico construida con HTML, CSS y Trabajo colaborativo en GitHub con otros Programadores </p>
+                            <a href="https://github.com/devmanueel/devtech-podcast-web" class="card__link" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </article>  
+                    <article class="card">
+                        <img src="images/proyecto3.jpeg" alt="" class="card__image">
+                        <div class="card__content">
+                            <h3 class="card__title">Sistema Académico FI-UNJU</h3>
+                            <p class="card__description">Aplicación web para la gestión académica de la facultad de Ingeniería posee registro de estudiante, profesores materias y carreras trabajado con CSS, HTML , java , Bootstrap, Spring Boot y Mysql </p>
+                            <a href="https://github.com/xriisemanuel/TP05_GRUPO207" class="card__link" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </article> 
+                    <article class="card">
+                        <img src="images/proyecto4.jpg" alt="" class="card__image">
+                        <div class="card__content">
+                            <h3 class="card__title">Sistema de Gestión de reuniones</h3>
+                            <p class="card__description">Aplicación web fullstack con frontend en HTML, CSS, JS, Angular y TypeScript, y backend en Node.js + Express.js. Usa MongoDB como base de datos. El sistema está contenedorizado con Docker y orquestado con Docker Compose, servido con NGINX como proxy y servidor estático. El código se gestiona con Git y GitHub, con soporte para CI/CD mediante GitHub Actions.</p>
+                            <a href="https://github.com/devmanueel/Proyecto_Final_HIA_2024" class="card__link" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </article> 
+                    <article class="card">
+                        <img src="images/proyecto5.png.jpg" alt="" class="card__image">
+                        <div class="card__content">
+                            <h3 class="card__title">Porfolio Personal</h3>
+                            <p class="card__description">Porfolio web Con proyectos personales desarrollado con HTML, CSS, JavaScript incluye mis datos personales y CV, destacando mis habilidades y Objetivos.</p>
+                            <a href="https://github.com/devmanueel/PorfolioMendozaManuel" class="card__link" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </article>  
+                 </div>
+            </div>
+        </section>
+
+    <!-- Bloque de Skills --> 
+    <section id="skills" class="section section--dark">
+        <div class="section__container">
+            <h2 class="section__title">Sobre Mi</h2>
+            <!-- bloque skills -->
+             <div class="skill-list">
+                <div class="skill">
+                    <h3 class="skill__title">Frontend</h3>
+                    <ul class="skill__items">
+                        <li class="skill__item">HTML5 & CSS3</li>
+                        <li class="skill__item">JavaScrip</li>
+                        <li class="skill__item">Angular</li>
+                        <li class="skill__item">Bootstrap</li>
+                    </ul>                    
+                </div>
+                <div class="skill">
+                    <h3 class="skill__title">Backend</h3>
+                    <ul class="skill__items">
+                        <li class="skill__item">Node.js</li>
+                        <li class="skill__item">Express</li>
+                        <li class="skill__item">Mysql</li>
+                        <li class="skill__item">Mongo</li>
+                    </ul>                    
+                </div>
+                <div class="skill">
+                    <h3 class="skill__title">Otras</h3>
+                    <ul class="skill__items">
+                        <li class="skill__item">Windows form C#</li>
+                        <li class="skill__item">WPF</li>
+                        <li class="skill__item">Docker</li>
+                        <li class="skill__item">Sql Server</li>
+                    </ul>                    
+                </div>
+             </div>        
+         </div>
+    </section>
+    </main>    
+    <!-- Bloque del footer -->
+     <footer  id="contact" class="footer">
+        <div class="footer__container">
+            <h2 class="footer__title">Contacto</h2>
+            <!-- Bloque contact -->
+            <div class="contact">
+                <a href="" class="contact__link">manuumendozaa05@gmail.com</a>
+                <a href="" class="contact__link">+54 3884605498</a>
+                <!-- bloque social -->
+                <div class="social">
+                    <a href="https://github.com/devmanueel" class="social__link social__link--github" target="_blank">Git</a>
+                    <a href="https://www.linkedin.com/in/manuel-santiago-mendoza-354224237/" class="social__link social__link--linkeding" target="_blank">Linkeding</a>
+                    <a href="https://www.instagram.com/dev_manu99?igsh=eXpvMmtienI0c2F4" class="social__link social__link--Instagram" target="_blank">Instagram</a>
+                </div>
+            </div>
+            <p class="footer_copyright">© 2025 Mendoza Manuel Todos los derechos reservados</p>
+        </div>
+     </footer>
 </body>
 </html>
